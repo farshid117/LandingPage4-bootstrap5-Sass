@@ -1,0 +1,24 @@
+{
+  "name": "landingpage4-bootstrap5-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w assets/scss -o assets/css "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farshid117/LandingPage4-bootstrap5-Sass.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farshid117/LandingPage4-bootstrap5-Sass/issues"
+  },
+  "homepage": "https://github.com/farshid117/LandingPage4-bootstrap5-Sass#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "node-sass": "^9.0.0"
+  }
+}
