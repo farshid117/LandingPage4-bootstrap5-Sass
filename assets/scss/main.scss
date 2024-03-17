@@ -2,16 +2,26 @@
 $primary: #f83600;
 $secondary: #fe8c00;
 
+$own-colors: (
+  "red": #900
+); 
+
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables"; 
+
+// Merge the maps : that must be import after variables and function component
+$theme-colors: map-merge($theme-colors, $own-colors);
+    
 // Import Bootstrap 
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
-    
+
 // Import App   
 @import './components/mixins';
 @import './components/buttons'; 
 @import './components/heading-line'; 
 @import './fonts';    
 
-@import './navbar';         
+@import './navbar';          
 @import './intro';
 @import './services';
 @import './comments'; 
